@@ -2,7 +2,7 @@ import { configureStore } from '@reduxjs/toolkit';
 
 import { chartReducer } from './chart-slice';
 
-export { selectSelectedYear, toggleSelectedYear } from './chart-slice';
+export { selectSelectedCategory, selectSelectedYear, setSelectedCategory, toggleSelectedYear } from './chart-slice';
 export { useAppDispatch, useAppSelector } from './hooks';
 
 export const store = configureStore({

@@ -1,6 +1,7 @@
+import type { CategoryFilter } from './constants';
 import type { ChartRow, TouristRecord } from './types';
 
-type YearTotals = ChartRow & { previous: number };
+type YearTotals = Omit<ChartRow, 'cagr'> & { previous: number };
 
 function emptyRow(year: number): YearTotals {
   return {
@@ -9,7 +10,6 @@ function emptyRow(year: number): YearTotals {
     cisCountries: 0,
     otherCountries: 0,
     total: 0,
-    cagr: null,
     previous: 0,
   };
 }
@@ -22,11 +22,15 @@ export function calcCagr(current: number, previous: number): number | null {
   return (current / previous) * 100 - 100;
 }
 
-export function getChartRows(records: readonly TouristRecord[]): ChartRow[] {
+export function getChartRows(records: readonly TouristRecord[], category: CategoryFilter = 'all'): ChartRow[] {
   const totalsByYear = new Map<number, YearTotals>();
 
   for (const record of records) {
     if (record.children) {
+      continue;
+    }
+
+    if (category !== 'all' && record.category !== category) {
       continue;
     }
 
