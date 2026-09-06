@@ -1,962 +1,866 @@
 [
   {
-    "id": 1,
     "year": 2020,
+    "category": "cisCountries",
     "region": null,
     "country": "Азербайджан",
-    "touristCategory": "Граждане стран ближнего зарубежья",
     "children": false,
-    "countTourists": 1,
-    "countTouristsPrevYear": 2
+    "count": 1,
+    "countPrevYear": 2
   },
   {
-    "id": 2,
     "year": 2020,
+    "category": "otherCountries",
     "region": null,
     "country": "Аргентина",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 2,
-    "countTouristsPrevYear": 3
+    "count": 2,
+    "countPrevYear": 3
   },
   {
-    "id": 3,
     "year": 2020,
+    "category": "otherCountries",
     "region": null,
     "country": "Австралия",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 3,
-    "countTouristsPrevYear": 4
+    "count": 3,
+    "countPrevYear": 4
   },
   {
-    "id": 4,
     "year": 2020,
+    "category": "otherCountries",
     "region": null,
     "country": "Австрия",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 4,
-    "countTouristsPrevYear": 5
+    "count": 4,
+    "countPrevYear": 5
   },
   {
-    "id": 5,
     "year": 2020,
+    "category": "cisCountries",
     "region": null,
     "country": "Армения",
-    "touristCategory": "Граждане стран ближнего зарубежья",
     "children": false,
-    "countTourists": 5,
-    "countTouristsPrevYear": 6
+    "count": 5,
+    "countPrevYear": 6
   },
   {
-    "id": 6,
     "year": 2020,
+    "category": "otherCountries",
     "region": null,
     "country": "Бельгия",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 6,
-    "countTouristsPrevYear": 7
+    "count": 6,
+    "countPrevYear": 7
   },
   {
-    "id": 7,
     "year": 2020,
+    "category": "otherCountries",
     "region": null,
     "country": "Бразилия",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 7,
-    "countTouristsPrevYear": 8
+    "count": 7,
+    "countPrevYear": 8
   },
   {
-    "id": 8,
     "year": 2020,
+    "category": "otherCountries",
     "region": null,
     "country": "Болгария",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 8,
-    "countTouristsPrevYear": 9
+    "count": 8,
+    "countPrevYear": 9
   },
   {
-    "id": 9,
     "year": 2020,
+    "category": "cisCountries",
     "region": null,
     "country": "Беларусь",
-    "touristCategory": "Граждане стран ближнего зарубежья",
     "children": false,
-    "countTourists": 9,
-    "countTouristsPrevYear": 10
+    "count": 9,
+    "countPrevYear": 10
   },
   {
-    "id": 10,
     "year": 2020,
+    "category": "otherCountries",
     "region": null,
     "country": "Канада",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 10,
-    "countTouristsPrevYear": 11
+    "count": 10,
+    "countPrevYear": 11
   },
   {
-    "id": 11,
     "year": 2020,
+    "category": "otherCountries",
     "region": null,
     "country": "Чили",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 11,
-    "countTouristsPrevYear": 12
+    "count": 11,
+    "countPrevYear": 12
   },
   {
-    "id": 12,
     "year": 2020,
+    "category": "otherCountries",
     "region": null,
     "country": "Китай (Китайская Народная Республика)",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 12,
-    "countTouristsPrevYear": 13
+    "count": 12,
+    "countPrevYear": 13
   },
   {
-    "id": 13,
     "year": 2020,
+    "category": "rf",
     "region": "Алтайский край",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 1,
-    "countTouristsPrevYear": 2
+    "count": 1,
+    "countPrevYear": 2
   },
   {
-    "id": 14,
     "year": 2020,
+    "category": "rf",
     "region": "Амурская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 2,
-    "countTouristsPrevYear": 3
+    "count": 2,
+    "countPrevYear": 3
   },
   {
-    "id": 15,
     "year": 2020,
+    "category": "rf",
     "region": "Белгородская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 3,
-    "countTouristsPrevYear": 4
+    "count": 3,
+    "countPrevYear": 4
   },
   {
-    "id": 16,
     "year": 2020,
+    "category": "rf",
     "region": "Брянская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 4,
-    "countTouristsPrevYear": 5
+    "count": 4,
+    "countPrevYear": 5
   },
   {
-    "id": 17,
     "year": 2020,
+    "category": "rf",
     "region": "Владимирская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 5,
-    "countTouristsPrevYear": 6
+    "count": 5,
+    "countPrevYear": 6
   },
   {
-    "id": 18,
     "year": 2020,
+    "category": "rf",
     "region": "Волгоградская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 6,
-    "countTouristsPrevYear": 7
+    "count": 6,
+    "countPrevYear": 7
   },
   {
-    "id": 19,
     "year": 2020,
+    "category": "rf",
     "region": "Москва",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 7,
-    "countTouristsPrevYear": 8
+    "count": 7,
+    "countPrevYear": 8
   },
   {
-    "id": 20,
     "year": 2020,
+    "category": "rf",
     "region": "Санкт-Петербург",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 8,
-    "countTouristsPrevYear": 9
+    "count": 8,
+    "countPrevYear": 9
   },
   {
-    "id": 21,
     "year": 2020,
+    "category": "rf",
     "region": "Калужская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 9,
-    "countTouristsPrevYear": 10
+    "count": 9,
+    "countPrevYear": 10
   },
   {
-    "id": 22,
     "year": 2020,
+    "category": "rf",
     "region": "Камчатский край",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 10,
-    "countTouristsPrevYear": 11
+    "count": 10,
+    "countPrevYear": 11
   },
   {
-    "id": 23,
     "year": 2020,
+    "category": "rf",
     "region": "Краснодарский край",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 11,
-    "countTouristsPrevYear": 12
+    "count": 11,
+    "countPrevYear": 12
   },
   {
-    "id": 24,
     "year": 2020,
+    "category": "rf",
     "region": "Красноярский край",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 12,
-    "countTouristsPrevYear": 13
+    "count": 12,
+    "countPrevYear": 13
   },
   {
-    "id": 25,
     "year": 2021,
+    "category": "cisCountries",
     "region": null,
     "country": "Азербайджан",
-    "touristCategory": "Граждане стран ближнего зарубежья",
     "children": false,
-    "countTourists": 2,
-    "countTouristsPrevYear": 3
+    "count": 2,
+    "countPrevYear": 3
   },
   {
-    "id": 26,
     "year": 2021,
+    "category": "otherCountries",
     "region": null,
     "country": "Аргентина",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 3,
-    "countTouristsPrevYear": 4
+    "count": 3,
+    "countPrevYear": 4
   },
   {
-    "id": 27,
     "year": 2021,
+    "category": "otherCountries",
     "region": null,
     "country": "Австралия",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 4,
-    "countTouristsPrevYear": 5
+    "count": 4,
+    "countPrevYear": 5
   },
   {
-    "id": 28,
     "year": 2021,
+    "category": "otherCountries",
     "region": null,
     "country": "Австрия",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 5,
-    "countTouristsPrevYear": 6
+    "count": 5,
+    "countPrevYear": 6
   },
   {
-    "id": 29,
     "year": 2021,
+    "category": "cisCountries",
     "region": null,
     "country": "Армения",
-    "touristCategory": "Граждане стран ближнего зарубежья",
     "children": false,
-    "countTourists": 6,
-    "countTouristsPrevYear": 7
+    "count": 6,
+    "countPrevYear": 7
   },
   {
-    "id": 30,
     "year": 2021,
+    "category": "otherCountries",
     "region": null,
     "country": "Бельгия",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 7,
-    "countTouristsPrevYear": 8
+    "count": 7,
+    "countPrevYear": 8
   },
   {
-    "id": 31,
     "year": 2021,
+    "category": "otherCountries",
     "region": null,
     "country": "Бразилия",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 8,
-    "countTouristsPrevYear": 9
+    "count": 8,
+    "countPrevYear": 9
   },
   {
-    "id": 32,
     "year": 2021,
+    "category": "otherCountries",
     "region": null,
     "country": "Болгария",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 9,
-    "countTouristsPrevYear": 10
+    "count": 9,
+    "countPrevYear": 10
   },
   {
-    "id": 33,
     "year": 2021,
+    "category": "cisCountries",
     "region": null,
     "country": "Беларусь",
-    "touristCategory": "Граждане стран ближнего зарубежья",
     "children": false,
-    "countTourists": 10,
-    "countTouristsPrevYear": 11
+    "count": 10,
+    "countPrevYear": 11
   },
   {
-    "id": 34,
     "year": 2021,
+    "category": "otherCountries",
     "region": null,
     "country": "Канада",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 11,
-    "countTouristsPrevYear": 12
+    "count": 11,
+    "countPrevYear": 12
   },
   {
-    "id": 35,
     "year": 2021,
+    "category": "otherCountries",
     "region": null,
     "country": "Чили",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 12,
-    "countTouristsPrevYear": 13
+    "count": 12,
+    "countPrevYear": 13
   },
   {
-    "id": 36,
     "year": 2021,
+    "category": "otherCountries",
     "region": null,
     "country": "Китай (Китайская Народная Республика)",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 13,
-    "countTouristsPrevYear": 14
+    "count": 13,
+    "countPrevYear": 14
   },
   {
-    "id": 37,
     "year": 2021,
+    "category": "rf",
     "region": "Алтайский край",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 3,
-    "countTouristsPrevYear": 5
+    "count": 3,
+    "countPrevYear": 5
   },
   {
-    "id": 38,
     "year": 2021,
+    "category": "rf",
     "region": "Амурская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 4,
-    "countTouristsPrevYear": 6
+    "count": 4,
+    "countPrevYear": 6
   },
   {
-    "id": 39,
     "year": 2021,
+    "category": "rf",
     "region": "Белгородская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 5,
-    "countTouristsPrevYear": 7
+    "count": 5,
+    "countPrevYear": 7
   },
   {
-    "id": 40,
     "year": 2021,
+    "category": "rf",
     "region": "Брянская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 6,
-    "countTouristsPrevYear": 8
+    "count": 6,
+    "countPrevYear": 8
   },
   {
-    "id": 41,
     "year": 2021,
+    "category": "rf",
     "region": "Владимирская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 7,
-    "countTouristsPrevYear": 9
+    "count": 7,
+    "countPrevYear": 9
   },
   {
-    "id": 42,
     "year": 2021,
+    "category": "rf",
     "region": "Волгоградская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 8,
-    "countTouristsPrevYear": 10
+    "count": 8,
+    "countPrevYear": 10
   },
   {
-    "id": 43,
     "year": 2021,
+    "category": "rf",
     "region": "Москва",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 9,
-    "countTouristsPrevYear": 11
+    "count": 9,
+    "countPrevYear": 11
   },
   {
-    "id": 44,
     "year": 2021,
+    "category": "rf",
     "region": "Санкт-Петербург",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 10,
-    "countTouristsPrevYear": 12
+    "count": 10,
+    "countPrevYear": 12
   },
   {
-    "id": 45,
     "year": 2021,
+    "category": "rf",
     "region": "Калужская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 11,
-    "countTouristsPrevYear": 13
+    "count": 11,
+    "countPrevYear": 13
   },
   {
-    "id": 46,
     "year": 2021,
+    "category": "rf",
     "region": "Камчатский край",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 12,
-    "countTouristsPrevYear": 14
+    "count": 12,
+    "countPrevYear": 14
   },
   {
-    "id": 47,
     "year": 2021,
+    "category": "rf",
     "region": "Краснодарский край",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 13,
-    "countTouristsPrevYear": 15
+    "count": 13,
+    "countPrevYear": 15
   },
   {
-    "id": 48,
     "year": 2021,
+    "category": "rf",
     "region": "Красноярский край",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 14,
-    "countTouristsPrevYear": 16
+    "count": 14,
+    "countPrevYear": 16
   },
   {
-    "id": 49,
     "year": 2022,
+    "category": "cisCountries",
     "region": null,
     "country": "Азербайджан",
-    "touristCategory": "Граждане стран ближнего зарубежья",
     "children": false,
-    "countTourists": 4,
-    "countTouristsPrevYear": 8
+    "count": 4,
+    "countPrevYear": 8
   },
   {
-    "id": 50,
     "year": 2022,
+    "category": "otherCountries",
     "region": null,
     "country": "Аргентина",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 5,
-    "countTouristsPrevYear": 9
+    "count": 5,
+    "countPrevYear": 9
   },
   {
-    "id": 51,
     "year": 2022,
+    "category": "otherCountries",
     "region": null,
     "country": "Австралия",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 6,
-    "countTouristsPrevYear": 10
+    "count": 6,
+    "countPrevYear": 10
   },
   {
-    "id": 52,
     "year": 2022,
+    "category": "otherCountries",
     "region": null,
     "country": "Австрия",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 7,
-    "countTouristsPrevYear": 11
+    "count": 7,
+    "countPrevYear": 11
   },
   {
-    "id": 53,
     "year": 2022,
+    "category": "cisCountries",
     "region": null,
     "country": "Армения",
-    "touristCategory": "Граждане стран ближнего зарубежья",
     "children": false,
-    "countTourists": 8,
-    "countTouristsPrevYear": 12
+    "count": 8,
+    "countPrevYear": 12
   },
   {
-    "id": 54,
     "year": 2022,
+    "category": "otherCountries",
     "region": null,
     "country": "Бельгия",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 9,
-    "countTouristsPrevYear": 13
+    "count": 9,
+    "countPrevYear": 13
   },
   {
-    "id": 55,
     "year": 2022,
+    "category": "otherCountries",
     "region": null,
     "country": "Бразилия",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 10,
-    "countTouristsPrevYear": 14
+    "count": 10,
+    "countPrevYear": 14
   },
   {
-    "id": 56,
     "year": 2022,
+    "category": "otherCountries",
     "region": null,
     "country": "Болгария",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 11,
-    "countTouristsPrevYear": 15
+    "count": 11,
+    "countPrevYear": 15
   },
   {
-    "id": 57,
     "year": 2022,
+    "category": "cisCountries",
     "region": null,
     "country": "Беларусь",
-    "touristCategory": "Граждане стран ближнего зарубежья",
     "children": false,
-    "countTourists": 12,
-    "countTouristsPrevYear": 16
+    "count": 12,
+    "countPrevYear": 16
   },
   {
-    "id": 58,
     "year": 2022,
+    "category": "otherCountries",
     "region": null,
     "country": "Канада",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 13,
-    "countTouristsPrevYear": 17
+    "count": 13,
+    "countPrevYear": 17
   },
   {
-    "id": 59,
     "year": 2022,
+    "category": "otherCountries",
     "region": null,
     "country": "Чили",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 14,
-    "countTouristsPrevYear": 18
+    "count": 14,
+    "countPrevYear": 18
   },
   {
-    "id": 60,
     "year": 2022,
+    "category": "otherCountries",
     "region": null,
     "country": "Китай (Китайская Народная Республика)",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": false,
-    "countTourists": 15,
-    "countTouristsPrevYear": 19
+    "count": 15,
+    "countPrevYear": 19
   },
   {
-    "id": 61,
     "year": 2022,
+    "category": "rf",
     "region": "Алтайский край",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 6,
-    "countTouristsPrevYear": 1
+    "count": 6,
+    "countPrevYear": 1
   },
   {
-    "id": 62,
     "year": 2022,
+    "category": "rf",
     "region": "Амурская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 7,
-    "countTouristsPrevYear": 2
+    "count": 7,
+    "countPrevYear": 2
   },
   {
-    "id": 63,
     "year": 2022,
+    "category": "rf",
     "region": "Белгородская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 8,
-    "countTouristsPrevYear": 3
+    "count": 8,
+    "countPrevYear": 3
   },
   {
-    "id": 64,
     "year": 2022,
+    "category": "rf",
     "region": "Брянская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 9,
-    "countTouristsPrevYear": 4
+    "count": 9,
+    "countPrevYear": 4
   },
   {
-    "id": 65,
     "year": 2022,
+    "category": "rf",
     "region": "Владимирская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 10,
-    "countTouristsPrevYear": 5
+    "count": 10,
+    "countPrevYear": 5
   },
   {
-    "id": 66,
     "year": 2022,
+    "category": "rf",
     "region": "Волгоградская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 11,
-    "countTouristsPrevYear": 6
+    "count": 11,
+    "countPrevYear": 6
   },
   {
-    "id": 67,
     "year": 2022,
+    "category": "rf",
     "region": "Москва",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 12,
-    "countTouristsPrevYear": 7
+    "count": 12,
+    "countPrevYear": 7
   },
   {
-    "id": 68,
     "year": 2022,
+    "category": "rf",
     "region": "Санкт-Петербург",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 13,
-    "countTouristsPrevYear": 8
+    "count": 13,
+    "countPrevYear": 8
   },
   {
-    "id": 69,
     "year": 2022,
+    "category": "rf",
     "region": "Калужская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 14,
-    "countTouristsPrevYear": 9
+    "count": 14,
+    "countPrevYear": 9
   },
   {
-    "id": 70,
     "year": 2022,
+    "category": "rf",
     "region": "Камчатский край",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 15,
-    "countTouristsPrevYear": 10
+    "count": 15,
+    "countPrevYear": 10
   },
   {
-    "id": 71,
     "year": 2022,
+    "category": "rf",
     "region": "Краснодарский край",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 16,
-    "countTouristsPrevYear": 11
+    "count": 16,
+    "countPrevYear": 11
   },
   {
-    "id": 72,
     "year": 2022,
+    "category": "rf",
     "region": "Красноярский край",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": false,
-    "countTourists": 17,
-    "countTouristsPrevYear": 12
+    "count": 17,
+    "countPrevYear": 12
   },
   {
-    "id": 73,
     "year": 2022,
+    "category": "cisCountries",
     "region": null,
     "country": "Азербайджан",
-    "touristCategory": "Граждане стран ближнего зарубежья",
     "children": true,
-    "countTourists": 4,
-    "countTouristsPrevYear": 8
+    "count": 4,
+    "countPrevYear": 8
   },
   {
-    "id": 74,
     "year": 2022,
+    "category": "otherCountries",
     "region": null,
     "country": "Аргентина",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": true,
-    "countTourists": 5,
-    "countTouristsPrevYear": 9
+    "count": 5,
+    "countPrevYear": 9
   },
   {
-    "id": 75,
     "year": 2022,
+    "category": "otherCountries",
     "region": null,
     "country": "Австралия",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": true,
-    "countTourists": 6,
-    "countTouristsPrevYear": 10
+    "count": 6,
+    "countPrevYear": 10
   },
   {
-    "id": 76,
     "year": 2022,
+    "category": "otherCountries",
     "region": null,
     "country": "Австрия",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": true,
-    "countTourists": 7,
-    "countTouristsPrevYear": 11
+    "count": 7,
+    "countPrevYear": 11
   },
   {
-    "id": 77,
     "year": 2022,
+    "category": "cisCountries",
     "region": null,
     "country": "Армения",
-    "touristCategory": "Граждане стран ближнего зарубежья",
     "children": true,
-    "countTourists": 8,
-    "countTouristsPrevYear": 12
+    "count": 8,
+    "countPrevYear": 12
   },
   {
-    "id": 78,
     "year": 2022,
+    "category": "otherCountries",
     "region": null,
     "country": "Бельгия",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": true,
-    "countTourists": 9,
-    "countTouristsPrevYear": 13
+    "count": 9,
+    "countPrevYear": 13
   },
   {
-    "id": 79,
     "year": 2022,
+    "category": "otherCountries",
     "region": null,
     "country": "Бразилия",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": true,
-    "countTourists": 10,
-    "countTouristsPrevYear": 14
+    "count": 10,
+    "countPrevYear": 14
   },
   {
-    "id": 80,
     "year": 2022,
+    "category": "otherCountries",
     "region": null,
     "country": "Болгария",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": true,
-    "countTourists": 11,
-    "countTouristsPrevYear": 15
+    "count": 11,
+    "countPrevYear": 15
   },
   {
-    "id": 81,
     "year": 2022,
+    "category": "cisCountries",
     "region": null,
     "country": "Беларусь",
-    "touristCategory": "Граждане стран ближнего зарубежья",
     "children": true,
-    "countTourists": 12,
-    "countTouristsPrevYear": 16
+    "count": 12,
+    "countPrevYear": 16
   },
   {
-    "id": 82,
     "year": 2022,
+    "category": "otherCountries",
     "region": null,
     "country": "Канада",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": true,
-    "countTourists": 13,
-    "countTouristsPrevYear": 17
+    "count": 13,
+    "countPrevYear": 17
   },
   {
-    "id": 83,
     "year": 2022,
+    "category": "otherCountries",
     "region": null,
     "country": "Чили",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": true,
-    "countTourists": 14,
-    "countTouristsPrevYear": 18
+    "count": 14,
+    "countPrevYear": 18
   },
   {
-    "id": 84,
     "year": 2022,
+    "category": "otherCountries",
     "region": null,
     "country": "Китай (Китайская Народная Республика)",
-    "touristCategory": "Граждане стран дальнего зарубежья",
     "children": true,
-    "countTourists": 15,
-    "countTouristsPrevYear": 19
+    "count": 15,
+    "countPrevYear": 19
   },
   {
-    "id": 85,
     "year": 2022,
+    "category": "rf",
     "region": "Алтайский край",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": true,
-    "countTourists": 6,
-    "countTouristsPrevYear": 1
+    "count": 6,
+    "countPrevYear": 1
   },
   {
-    "id": 86,
     "year": 2022,
+    "category": "rf",
     "region": "Амурская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": true,
-    "countTourists": 7,
-    "countTouristsPrevYear": 2
+    "count": 7,
+    "countPrevYear": 2
   },
   {
-    "id": 87,
     "year": 2022,
+    "category": "rf",
     "region": "Белгородская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": true,
-    "countTourists": 8,
-    "countTouristsPrevYear": 3
+    "count": 8,
+    "countPrevYear": 3
   },
   {
-    "id": 88,
     "year": 2022,
+    "category": "rf",
     "region": "Брянская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": true,
-    "countTourists": 9,
-    "countTouristsPrevYear": 4
+    "count": 9,
+    "countPrevYear": 4
   },
   {
-    "id": 89,
     "year": 2022,
+    "category": "rf",
     "region": "Владимирская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": true,
-    "countTourists": 10,
-    "countTouristsPrevYear": 5
+    "count": 10,
+    "countPrevYear": 5
   },
   {
-    "id": 90,
     "year": 2022,
+    "category": "rf",
     "region": "Волгоградская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": true,
-    "countTourists": 11,
-    "countTouristsPrevYear": 6
+    "count": 11,
+    "countPrevYear": 6
   },
   {
-    "id": 91,
     "year": 2022,
+    "category": "rf",
     "region": "Москва",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": true,
-    "countTourists": 12,
-    "countTouristsPrevYear": 7
+    "count": 12,
+    "countPrevYear": 7
   },
   {
-    "id": 92,
     "year": 2022,
+    "category": "rf",
     "region": "Санкт-Петербург",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": true,
-    "countTourists": 13,
-    "countTouristsPrevYear": 8
+    "count": 13,
+    "countPrevYear": 8
   },
   {
-    "id": 93,
     "year": 2022,
+    "category": "rf",
     "region": "Калужская область",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": true,
-    "countTourists": 14,
-    "countTouristsPrevYear": 9
+    "count": 14,
+    "countPrevYear": 9
   },
   {
-    "id": 94,
     "year": 2022,
+    "category": "rf",
     "region": "Камчатский край",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": true,
-    "countTourists": 15,
-    "countTouristsPrevYear": 10
+    "count": 15,
+    "countPrevYear": 10
   },
   {
-    "id": 95,
     "year": 2022,
+    "category": "rf",
     "region": "Краснодарский край",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": true,
-    "countTourists": 16,
-    "countTouristsPrevYear": 11
+    "count": 16,
+    "countPrevYear": 11
   },
   {
-    "id": 96,
     "year": 2022,
+    "category": "rf",
     "region": "Красноярский край",
     "country": null,
-    "touristCategory": "Граждане РФ",
     "children": true,
-    "countTourists": 17,
-    "countTouristsPrevYear": 12
+    "count": 17,
+    "countPrevYear": 12
   }
 ]
