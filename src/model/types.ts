@@ -1,4 +1,4 @@
-export type TouristCategory = 'rf' | 'cisCountries' | 'otherCountries';
+import type { TouristCategory } from './constants';
 
 export type TouristRecord = {
   year: number;
@@ -12,8 +12,5 @@ export type TouristRecord = {
 
 export type ChartRow = {
   year: number;
-  rf: number;
-  cisCountries: number;
-  otherCountries: number;
   total: number;
-};
+} & Record<TouristCategory, number>;

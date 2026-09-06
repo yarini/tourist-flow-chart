@@ -1,6 +1,6 @@
-import type { TouristCategory } from './types';
+export const TOURIST_CATEGORIES = ['rf', 'cisCountries', 'otherCountries'] as const;
 
-export const TOURIST_CATEGORIES: readonly TouristCategory[] = ['rf', 'cisCountries', 'otherCountries'];
+export type TouristCategory = (typeof TOURIST_CATEGORIES)[number];
 
 export const CATEGORY_LABELS = {
   rf: 'Граждане РФ',
