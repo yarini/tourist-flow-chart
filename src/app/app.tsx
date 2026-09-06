@@ -1,8 +1,10 @@
 import { TouristFlowChart } from '../widgets/tourist-flow-chart';
 import {
+  selectIsChildMode,
   selectSelectedCategory,
   selectSelectedYear,
   setSelectedCategory,
+  toggleChildMode,
   toggleSelectedYear,
   useAppDispatch,
   useAppSelector,
@@ -11,6 +13,7 @@ import {
 function App() {
   const selectedYear = useAppSelector(selectSelectedYear);
   const selectedCategory = useAppSelector(selectSelectedCategory);
+  const isChildMode = useAppSelector(selectIsChildMode);
   const dispatch = useAppDispatch();
 
   return (
@@ -19,8 +22,10 @@ function App() {
       <TouristFlowChart
         selectedYear={selectedYear}
         selectedCategory={selectedCategory}
+        isChildMode={isChildMode}
         onYearSelect={(year) => dispatch(toggleSelectedYear(year))}
         onCategoryChange={(category) => dispatch(setSelectedCategory(category))}
+        onChildModeToggle={() => dispatch(toggleChildMode())}
       />
     </section>
   );

@@ -6,12 +6,14 @@ import {
   CAGR_LABEL,
   CATEGORY_COLORS,
   CATEGORY_LABELS,
+  CHILDREN_LABEL,
   SINGLE_SERIES_COLOR,
   TOURIST_CATEGORIES,
   getChartRows,
   touristRecords,
   type CategoryFilter,
 } from '../../model';
+import { Button } from '../../shared/ui/button';
 import { Select, type SelectOption } from '../../shared/ui/select';
 
 import { ChartTooltip } from './chart-tooltip';
@@ -29,17 +31,21 @@ const CATEGORY_OPTIONS: SelectOption<CategoryFilter>[] = [
 type TouristFlowChartProps = {
   selectedYear: number | null;
   selectedCategory: CategoryFilter;
+  isChildMode: boolean;
   onYearSelect: (year: number) => void;
   onCategoryChange: (category: CategoryFilter) => void;
+  onChildModeToggle: () => void;
 };
 
 export function TouristFlowChart({
   selectedYear,
   selectedCategory,
+  isChildMode,
   onYearSelect,
   onCategoryChange,
+  onChildModeToggle,
 }: TouristFlowChartProps) {
-  const data = getChartRows(touristRecords, selectedCategory);
+  const data = getChartRows(touristRecords, selectedCategory, isChildMode);
 
   const handleBarClick = (item: { payload?: { year?: unknown } }) => {
     const year = item.payload?.year;
@@ -51,7 +57,14 @@ export function TouristFlowChart({
 
   return (
     <div className={styles.root}>
-      <Select value={selectedCategory} options={CATEGORY_OPTIONS} onChange={onCategoryChange} />
+      <div className={styles.toolbar}>
+        {isChildMode ? null : (
+          <Select value={selectedCategory} options={CATEGORY_OPTIONS} onChange={onCategoryChange} />
+        )}
+        <Button pressed={isChildMode} onClick={onChildModeToggle}>
+          {CHILDREN_LABEL}
+        </Button>
+      </div>
       <div className={styles.chart}>
         <ResponsiveContainer width="100%" height="100%">
           <ComposedChart data={data}>
@@ -61,7 +74,17 @@ export function TouristFlowChart({
             <YAxis yAxisId="right" orientation="right" unit="%" />
             <Legend />
             <Tooltip shared={false} animationDuration={0} content={ChartTooltip} />
-            {selectedCategory === 'all' ? (
+            {isChildMode ? (
+              <Bar
+                yAxisId="left"
+                dataKey="total"
+                name={CHILDREN_LABEL}
+                legendType="circle"
+                fill={SINGLE_SERIES_COLOR}
+                cursor="pointer"
+                onClick={handleBarClick}
+              />
+            ) : selectedCategory === 'all' ? (
               TOURIST_CATEGORIES.map((category) => (
                 <Bar
                   key={category}

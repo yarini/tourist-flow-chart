@@ -23,3 +23,5 @@ export const CAGR_COLOR = '#FFFF00';
 export const CAGR_LABEL = 'Темп прироста, % (год к году)';
 
 export const ALL_CATEGORY_LABEL = 'Все туристы';
+
+export const CHILDREN_LABEL = 'Дети';

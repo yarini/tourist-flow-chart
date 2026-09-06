@@ -22,23 +22,30 @@ export function calcCagr(current: number, previous: number): number | null {
   return (current / previous) * 100 - 100;
 }
 
-export function getChartRows(records: readonly TouristRecord[], category: CategoryFilter = 'all'): ChartRow[] {
+export function getChartRows(
+  records: readonly TouristRecord[],
+  category: CategoryFilter = 'all',
+  children = false
+): ChartRow[] {
   const totalsByYear = new Map<number, YearTotals>();
 
+  for (const year of new Set(records.map((record) => record.year))) {
+    totalsByYear.set(year, emptyRow(year));
+  }
+
   for (const record of records) {
-    if (record.children) {
+    if (record.children !== children) {
       continue;
     }
 
-    if (category !== 'all' && record.category !== category) {
+    if (!children && category !== 'all' && record.category !== category) {
       continue;
     }
 
-    let totals = totalsByYear.get(record.year);
+    const totals = totalsByYear.get(record.year);
 
     if (!totals) {
-      totals = emptyRow(record.year);
-      totalsByYear.set(record.year, totals);
+      continue;
     }
 
     totals[record.category] += record.count;
