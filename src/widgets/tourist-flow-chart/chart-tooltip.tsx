@@ -13,12 +13,14 @@ export function ChartTooltip({ active, payload, label }: TooltipContentProps) {
     return null;
   }
 
+  const isCagr = item.dataKey === 'cagr';
+
   return (
     <div className={styles.tooltip}>
       <p className={styles.year}>{label}</p>
       <p className={styles.value}>
-        <span className={styles.swatch} style={{ backgroundColor: item.color }} />
-        {item.name}: {item.value} млн
+        <span className={styles.swatch} style={{ backgroundColor: item.color ?? item.stroke }} />
+        {item.name}: {isCagr ? `${item.value.toFixed(1)} %` : `${item.value} млн`}
       </p>
     </div>
   );

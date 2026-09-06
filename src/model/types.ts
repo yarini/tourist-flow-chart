@@ -13,4 +13,5 @@ export type TouristRecord = {
 export type ChartRow = {
   year: number;
   total: number;
+  cagr: number | null;
 } & Record<TouristCategory, number>;

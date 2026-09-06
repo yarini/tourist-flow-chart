@@ -14,4 +14,8 @@ export const CATEGORY_COLORS = {
   otherCountries: '#FF69B4',
 } as const;
 
-export const SINGLE_SERIES_COLOR = '#4f46e5';
+export const SINGLE_SERIES_COLOR = '#4F46E5';
+
+export const CAGR_COLOR = '#FFFF00';
+
+export const CAGR_LABEL = 'Темп прироста, % (год к году)';
