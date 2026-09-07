@@ -20,11 +20,3 @@
 npm install
 npm run dev
 ```
-
-Другие скрипты:
-
-```bash
-npm run build    # проверка типов и production-сборка
-npm run preview  # просмотр собранного приложения
-npm run lint     # ESLint
-```
