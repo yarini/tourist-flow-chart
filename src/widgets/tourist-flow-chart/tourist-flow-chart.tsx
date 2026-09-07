@@ -58,7 +58,10 @@ export function TouristFlowChart({
 
   return (
     <div className={styles.root}>
-      <p className={styles.total}>Итого: {total} млн</p>
+      <div className={styles.header}>
+        <h1 className={styles.title}>Динамика туристского потока</h1>
+        <p className={styles.total}>Итого: {total} млн</p>
+      </div>
       <div className={styles.toolbar}>
         {isChildMode ? null : (
           <Select value={selectedCategory} options={CATEGORY_OPTIONS} onChange={onCategoryChange} />
@@ -69,12 +72,30 @@ export function TouristFlowChart({
       </div>
       <div className={styles.chart}>
         <ResponsiveContainer width="100%" height="100%">
-          <ComposedChart data={data}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="year" tick={(props) => <YearTick {...props} selectedYear={selectedYear} />} />
-            <YAxis yAxisId="left" />
-            <YAxis yAxisId="right" orientation="right" unit="%" />
-            <Legend />
+          <ComposedChart data={data} accessibilityLayer={false}>
+            <CartesianGrid
+              yAxisId="left"
+              vertical={false}
+              syncWithTicks
+              stroke="var(--chart-grid)"
+              strokeDasharray="3 3"
+            />
+            <XAxis
+              dataKey="year"
+              axisLine={false}
+              tickLine={false}
+              tick={(props) => <YearTick {...props} selectedYear={selectedYear} />}
+            />
+            <YAxis yAxisId="left" axisLine={false} tickLine={false} tick={{ fill: 'var(--chart-text)' }} />
+            <YAxis
+              yAxisId="right"
+              orientation="right"
+              unit="%"
+              axisLine={false}
+              tickLine={false}
+              tick={{ fill: CAGR_COLOR, fillOpacity: 0.7 }}
+            />
+            <Legend labelStyle={{ color: 'var(--chart-text)' }} />
             <Tooltip shared={false} animationDuration={0} content={ChartTooltip} />
             {isChildMode ? (
               <Bar
@@ -84,6 +105,7 @@ export function TouristFlowChart({
                 legendType="circle"
                 fill={SINGLE_SERIES_COLOR}
                 cursor="pointer"
+                activeBar={false}
                 onClick={handleBarClick}
               />
             ) : selectedCategory === 'all' ? (
@@ -97,6 +119,7 @@ export function TouristFlowChart({
                   stackId="arrivals"
                   fill={CATEGORY_COLORS[category]}
                   cursor="pointer"
+                  activeBar={false}
                   onClick={handleBarClick}
                 />
               ))
@@ -108,6 +131,7 @@ export function TouristFlowChart({
                 legendType="circle"
                 fill={SINGLE_SERIES_COLOR}
                 cursor="pointer"
+                activeBar={false}
                 onClick={handleBarClick}
               />
             )}

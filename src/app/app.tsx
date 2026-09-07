@@ -1,4 +1,5 @@
 import { TouristFlowChart } from '../widgets/tourist-flow-chart';
+import styles from './app.module.css';
 import {
   selectIsChildMode,
   selectSelectedCategory,
@@ -17,8 +18,7 @@ function App() {
   const dispatch = useAppDispatch();
 
   return (
-    <section>
-      <h1>Динамика туристского потока</h1>
+    <main className={styles.page}>
       <TouristFlowChart
         selectedYear={selectedYear}
         selectedCategory={selectedCategory}
@@ -27,7 +27,7 @@ function App() {
         onCategoryChange={(category) => dispatch(setSelectedCategory(category))}
         onChildModeToggle={() => dispatch(toggleChildMode())}
       />
-    </section>
+    </main>
   );
 }
 

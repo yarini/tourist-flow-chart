@@ -4,7 +4,7 @@ type YearTickProps = XAxisTickContentProps & {
   selectedYear: number | null;
 };
 
-export function YearTick({ x, y, payload, fill, textAnchor, selectedYear }: YearTickProps) {
+export function YearTick({ x, y, payload, textAnchor, selectedYear }: YearTickProps) {
   const isSelected = payload.value === selectedYear;
 
   return (
@@ -13,7 +13,7 @@ export function YearTick({ x, y, payload, fill, textAnchor, selectedYear }: Year
       y={y}
       dy={16}
       textAnchor={textAnchor}
-      fill={isSelected ? 'var(--text-h)' : fill}
+      fill={isSelected ? 'var(--chart-title)' : 'var(--chart-text)'}
       fontWeight={isSelected ? 700 : 400}
     >
       {payload.value}

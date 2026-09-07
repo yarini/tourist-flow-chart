@@ -1,14 +1,37 @@
 .root {
+  --chart-text: #8ea2c8;
+  --chart-title: #fff;
+  --chart-total: #00e5ff;
+  --chart-grid: rgba(255, 255, 255, 0.22);
+  --accent: #4a9fdc;
+
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 16px;
   width: 100%;
+  padding: 24px;
+  background: #0b1d36;
+  color: var(--chart-text);
+  border-radius: 8px;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--chart-title);
 }
 
 .total {
-  align-self: flex-end;
   margin: 0;
+  color: var(--chart-total);
 }
 
 .toolbar {
@@ -20,4 +43,12 @@
 .chart {
   width: 100%;
   height: 400px;
+  min-width: 0;
+}
+
+.chart :global(.recharts-wrapper:focus),
+.chart :global(.recharts-wrapper:focus-visible),
+.chart :global(.recharts-surface:focus),
+.chart :global(svg:focus) {
+  outline: none;
 }
