@@ -46,6 +46,7 @@ export function TouristFlowChart({
   onChildModeToggle,
 }: TouristFlowChartProps) {
   const data = getChartRows(touristRecords, selectedCategory, isChildMode);
+  const total = data.reduce((sum, row) => sum + row.total, 0);
 
   const handleBarClick = (item: { payload?: { year?: unknown } }) => {
     const year = item.payload?.year;
@@ -57,6 +58,7 @@ export function TouristFlowChart({
 
   return (
     <div className={styles.root}>
+      <p className={styles.total}>Итого: {total} млн</p>
       <div className={styles.toolbar}>
         {isChildMode ? null : (
           <Select value={selectedCategory} options={CATEGORY_OPTIONS} onChange={onCategoryChange} />

@@ -6,6 +6,11 @@
   width: 100%;
 }
 
+.total {
+  align-self: flex-end;
+  margin: 0;
+}
+
 .toolbar {
   display: flex;
   align-items: center;
